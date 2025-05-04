@@ -86,7 +86,6 @@ const Calendar = () => {
 						))}
 					</List>
 				</Box>
-
 				{/* CALENDAR */}
 				<Box flex="1 1 100%" ml="15px">
 					<FullCalendar
@@ -114,12 +113,12 @@ const Calendar = () => {
 							{
 								id: "12315",
 								title: "All-day event",
-								date: "2025-05-14",
+								start: "2025-05-14",
 							},
 							{
 								id: "5123",
 								title: "Timed event",
-								date: "2025-05-28",
+								start: "2025-05-28",
 							},
 						]}
 					/>
