@@ -89,7 +89,7 @@ const Team = () => {
 					"& .name-column--cell": {
 						color: colors.greenAccent[300],
 					},
-					"& .MuiDataGrid-columnHeaders": {
+					"& .MuiDataGrid-columnHeader": {
 						backgroundColor: colors.blueAccent[700],
 						borderBottom: "none",
 					},
