@@ -13,10 +13,10 @@ const BarChart = ({ isDashboard = false }) => {
 				axis: {
 					domain: {
 						line: {
-							storke: colors.grey[100],
+							stroke: colors.grey[100],
 						},
 					},
-					legrnd: {
+					legend: {
 						text: {
 							fill: colors.grey[100],
 						},
@@ -24,7 +24,7 @@ const BarChart = ({ isDashboard = false }) => {
 					ticks: {
 						line: {
 							stroke: colors.grey[100],
-							strokewidth: 1,
+							strokeWidth: 1,
 						},
 						text: {
 							fill: colors.grey[100],
@@ -34,6 +34,11 @@ const BarChart = ({ isDashboard = false }) => {
 				legends: {
 					text: {
 						fill: colors.grey[100],
+					},
+				},
+				tooltip: {
+					container: {
+						color: colors.primary[500],
 					},
 				},
 			}}
